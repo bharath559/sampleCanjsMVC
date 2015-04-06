@@ -1,0 +1,25 @@
+{{#results}}
+	<div class="tile_CarDetails">
+			<div class="car_thumb">
+			<img src="{{img}}">
+			</div>
+			<h5>{{carName}}</h5><br/>
+			{{Key_Features}}<br/>
+			<h6>Interior</h6>
+			{{#Interior}}
+				<li>{{.}}</li>
+			{{/Interior}}
+			<br/><br/>
+			<div class="specs_box">
+			<h6>Specifications</h6>	<br/>
+		    
+			{{Transmission}}<br/>
+			{{MPG}}<br/>
+			{{Color}}<br/>
+			{{Drivetrain}}<br/>
+			{{Engine}}<br/>
+			{{Fuel_Type}}<br/>
+			</div>
+	</div>		
+	
+{{/results}}

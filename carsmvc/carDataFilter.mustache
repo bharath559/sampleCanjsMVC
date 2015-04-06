@@ -1,0 +1,37 @@
+<div class="animator-container" can-transition="true">
+<div class="tile_large">
+	<img src={{imgsrc}} width="100%" height="100%">
+</div>
+
+
+<div class="tile_medium">
+	<h2>
+	{{title}}
+	</h2>
+	<p>
+	{{description}}
+	</p>
+
+	<div id="car_details">
+		<span> Year </span>
+	<select id="year">
+		{{#year}}
+			<option>{{.}}</option>
+		{{/year}}
+	</select><br/>
+	 <span> Model </span>
+	<select id="model">
+		{{#model}}
+			<option>{{.}}</option>
+		{{/model}}
+	</select><br/>
+	 <span> Color </span>
+	<select id="color">
+		{{#exterior_color}}
+			<option>{{.}}</option>
+		{{/exterior_color}}
+	</select><br/>
+	<button id="filter_btn">Filter</button>
+	</div>
+</div>
+</div>

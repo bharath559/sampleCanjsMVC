@@ -1,0 +1,230 @@
+html,body {
+    height:100%; /* needed for container min-height */
+    background:#f1f1f1;
+    color:#4a5853;
+}
+
+.main_content
+{
+	width:1024px;
+	margin: 0px auto;
+	margin-top : 30px;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	max-width: 1024px;
+	
+
+
+}
+
+#carmodels
+{
+	
+	margin: 0px auto;
+	width:95%;
+
+	
+}
+#car_details
+{
+	width:100%;
+	margin: 0px auto;
+	background:white;
+	padding: 10px;
+	border-top: 1px solid #dadada;
+}
+
+#car_info
+{
+	width:100%;
+	margin: 0px auto;
+	margin-top : 20px;
+	background:white;
+	overflow: hidden;
+	border: 1px solid #dadada;
+	min-height:480px;
+	height:auto;
+	margin-bottom:20px;
+}
+
+#searchResults{
+	width:100%;
+	margin: 0px auto;
+	margin-top : 20px;
+	background:white;
+	overflow: hidden;
+	border: 1px solid #dadada;
+	padding-bottom: 30px;
+	height:auto;
+	margin-bottom:40px;
+}
+
+#footerDiv{
+	margin-top: 40px;
+	width:100%;
+	margin-bottom: 20px;
+	
+}
+
+.icon
+{
+	width: 25px;
+	height: 25px;
+	background: #white;
+}
+
+#fb:before
+{
+
+	content: "\e00c"
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;  
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #bbb;
+  
+  top: 12px;
+  width: 200px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+
+.tile_large
+{
+	width: 68%;
+	float: left;
+	border-right: 1px solid #dadada;
+}
+
+.tile_medium
+{
+	width: 30%;
+	float:left;
+	font-size: 12px;
+	font-weight: bold;
+	
+}
+.tile_CarDetails
+{
+	padding-left: 10px;
+	width:244px;
+	float:left;
+	overflow: hidden;
+	border-left: 1px solid #dadada;
+	font-size: 11px;
+}
+
+.specs_box
+{
+	
+	
+	border-top: 1px solid #dadada;
+	height: auto;
+}
+
+.car_thumb
+{
+	padding:5%;
+}
+
+h2{
+	font-family: "Lucida Grande";
+	padding-left: 10px;
+}
+
+p{
+	font-family: "Lucida Grande";
+	padding: 12px;
+	font-size: 12.2px;
+	color:#4a5853;
+
+}
+
+#top-nav{
+	border-bottom: 1px solid #e1e6dd;
+	background: #FFF;
+	-webkit-transform: translateZ(0)
+
+}
+#top-nav.navbar{
+	margin-bottom: 0px;
+
+}
+#top-nav.navbar .nav{
+	margin: 8px 0px;
+}
+	
+#top-nav.navbar .nav > li > a {
+	padding: 6px 12px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	-webkit-transition: background-color 200ms ease;
+	-moz-transition: background-color 200ms ease;
+	-o-transition: background-color 200ms ease;
+	transition: background-color 200ms ease;
+}
+#top-nav.navbar .nav > li > a.download{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#top-nav.navbar .nav > li > a.download-on{
+	background-color: #ff8a3c;
+	color: #ffffff;
+}
+#top-nav.navbar .nav > li > a.download-on:hover{
+	color: #ffffff;
+	background-color: #ff7920;
+}
+.btn-navbar span.icon-bar{
+	margin-top: 0px;
+}
+
+
+.container
+{
+	background:#323B4E;
+}
+#menu-items
+{
+	display: none;
+	position: absolute;
+	top: 58px;
+	right: 0px;
+	overflow: hidden;
+	z-index: 20;
+	-webkit-box-shadow: 0px 0px 63px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 63px 7px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 63px 7px rgba(0,0,0,0.75);
+}
+.overlay_content
+{
+	position: absolute;
+	top: 100px;
+	right: 20px;
+	color:#4a5853;
+}
